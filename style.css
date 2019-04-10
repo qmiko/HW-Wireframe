@@ -14,14 +14,16 @@ header, aside, nav, section, footer{
 
 }
 
-h1, h2, h3, p{
-    color: #777; 
-    background-color: #ebebeb
-}
+h1, p{
+    color: #777;
+    background-color: #ebebeb;
+
+} 
 
 header{
     padding: 25px;
     margin: 1%;
+    text-align: center;
 }
 
 /* header{
@@ -32,25 +34,105 @@ header{
 } */
 
 section{
-    padding: 5%;
+    float: left;
+    text-align: center;
+    width: 400px;
+    padding-left: 30px;
+    padding-right: 60px;
+    height: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+footer{
+    padding-bottom: 50px;
 }
 
 nav{
     height: 75px;
     padding: 10px;
-    margin: 1%; 
+    margin: 1%;
+    text-align: center;
 }
 
 article{
-    color: #ebebeb; 
+    color: #ebebeb;
     background: #777;
+    padding-bottom: 110px;
+    padding-right: 150px;
+    padding-left: 50px;
+    padding-top: 10px;
+    width: 200px;
+    height: 100px;
+    margin-left: 20px;
 }
 
 aside{
     float: right;
+    width: 420px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-bottom: 242px;
+    text-align: center;
+    padding-left: 20px
 }
 
 footer{
     text-align: center; 
     width: 300px;
+    margin-top: 300px;
+    padding-right: 321px;
+    padding-left:321px;
+    padding-bottom:70px;
+    height: 50px;
+
+}
+.color{
+    background-color: #777;
+    color: #ebebeb;
+    width: 300px;
+    height: 21px;
+
+}
+h1{
+    padding-top: 10px;
+    padding-bottom: 0px;
+    width: 300px;
+    height: 45px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.pp{
+    padding-bottom: 5px;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 15px;
+    width: 40px;
+    background-color: #ebebeb;
+    margin-top: 10px;
+    height: 35px;
+
+}
+
+.sct{
+    width: 450px;
+    height: 30px;
+}
+
+.hdr{
+    width: 800px;
+    height: 30px;
+    padding-right: 20px; 
+}
+
+.nv{
+    width: 840px;
+    height: 30px;
+    padding-right: 10px;
+}
+.ftr{
+    margin-bottom: 10px;
+    padding-top: 50px;
 }
