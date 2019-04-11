@@ -11,13 +11,11 @@ header, aside, nav, section, footer{
     background-color: #ebebeb;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 h1, p{
     color: #777;
     background-color: #ebebeb;
-
 } 
 
 header{
@@ -25,13 +23,6 @@ header{
     margin: 1%;
     text-align: center;
 }
-
-/* header{
-    background-color: #ebebeb; 
-    text-align: center; 
-    width: 495px; 
-    color: #777;
-} */
 
 section{
     float: left;
@@ -43,8 +34,8 @@ section{
     margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-
 }
+
 footer{
     padding-bottom: 50px;
 }
@@ -86,15 +77,15 @@ footer{
     padding-left:321px;
     padding-bottom:70px;
     height: 50px;
-
 }
+
 .color{
     background-color: #777;
     color: #ebebeb;
     width: 300px;
     height: 21px;
-
 }
+
 h1{
     padding-top: 10px;
     padding-bottom: 0px;
@@ -113,7 +104,6 @@ h1{
     background-color: #ebebeb;
     margin-top: 10px;
     height: 35px;
-
 }
 
 .sct{
@@ -122,16 +112,16 @@ h1{
 }
 
 .hdr{
-    width: 800px;
+    width: 900px;
     height: 30px;
-    padding-right: 20px; 
+    padding-right: 10px; 
 }
 
 .nv{
-    width: 840px;
+    width: 930px;
     height: 30px;
-    padding-right: 10px;
 }
+
 .ftr{
     margin-bottom: 10px;
     padding-top: 50px;
